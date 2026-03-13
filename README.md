@@ -1,5 +1,9 @@
 # docker-learning
 
+[![CI](https://github.com/91fapiao-cn/docker-learning/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/91fapiao-cn/docker-learning/actions/workflows/ci.yml)
+[![Release Docker Template](https://github.com/91fapiao-cn/docker-learning/actions/workflows/release-docker-template.yml/badge.svg)](https://github.com/91fapiao-cn/docker-learning/actions/workflows/release-docker-template.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 一个最小但尽量像真实工程的 Docker + GitHub Actions 样板。
 
 ## 当前能力
@@ -69,6 +73,9 @@ Invoke-WebRequest -UseBasicParsing http://127.0.0.1:18081/healthz
 - `Dockerfile.local` - 当前环境更稳的本地构建版本
 - `.dockerignore` - Docker 构建忽略
 - `.gitignore` - Git 忽略
+- `.gitattributes` - 跨平台换行策略
+- `LICENSE` - MIT 许可
+- `CHANGELOG.md` - 版本变更记录
 - `DOCKER_LEARNING_NOTES.md` - 本机实战笔记
 - `TEMPLATE_NEXT_STEPS.md` - 如何迁移到真实项目
 - `CI_CD_ROADMAP.md` - 后续 CI/CD 演进路线
